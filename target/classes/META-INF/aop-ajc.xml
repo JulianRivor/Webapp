@@ -1,0 +1,18 @@
+<aspectj>
+<aspects>
+<aspect name="org.imasd.webapp.domain.web.PersonaController_Roo_Controller"/>
+<aspect name="org.imasd.webapp.domain.Persona_Roo_ToString"/>
+<aspect name="org.imasd.webapp.domain.web.TelefonoController_Roo_Controller"/>
+<aspect name="org.imasd.webapp.domain.Persona_Roo_Jpa_ActiveRecord"/>
+<aspect name="org.imasd.webapp.domain.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="org.imasd.webapp.domain.Telefono_Roo_JavaBean"/>
+<aspect name="org.imasd.webapp.domain.Persona_Roo_JavaBean"/>
+<aspect name="org.imasd.webapp.domain.Telefono_Roo_Jpa_Entity"/>
+<aspect name="org.imasd.webapp.domain.Telefono_Roo_Configurable"/>
+<aspect name="org.imasd.webapp.domain.Persona_Roo_Jpa_Entity"/>
+<aspect name="org.imasd.webapp.domain.Telefono_Roo_ToString"/>
+<aspect name="org.imasd.webapp.domain.Persona_Roo_Configurable"/>
+<aspect name="org.imasd.webapp.domain.Telefono_Roo_Jpa_ActiveRecord"/>
+</aspects>
+</aspectj>
+

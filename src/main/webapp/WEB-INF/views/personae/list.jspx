@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_imasd_webapp_domain_Persona" items="${personae}" z="92BP6AYsHeQDYekhnYyp+AjXMuA=">
+        <table:table data="${personae}" id="l_org_imasd_webapp_domain_Persona" path="/personae" z="DKE0ajTHs+gaSuXIJtq6tN68Q48=">
+            <table:column id="c_org_imasd_webapp_domain_Persona_nombre" property="nombre" z="L/clDwPULhtXuYBqCONY3UuMLOA="/>
+            <table:column id="c_org_imasd_webapp_domain_Persona_apellido" property="apellido" z="b+z9g682RTrbQ46CC2R61HttvFw="/>
+            <table:column id="c_org_imasd_webapp_domain_Persona_direccion" property="direccion" z="JegMNo4RW5z+EFPyJOwjs1pzSO8="/>
+            <table:column date="true" dateTimePattern="${persona_fechadenacimiento_date_format}" id="c_org_imasd_webapp_domain_Persona_fechaDeNacimiento" property="fechaDeNacimiento" z="4nRGhszKNz3i9aGXx7dvkaPKeNo="/>
+        </table:table>
+    </page:list>
+</div>

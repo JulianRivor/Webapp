@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_telefono" z="GZPtWERUVCXeEyN7E00T33Ynwxg=">
+            <menu:item id="i_telefono_new" messageCode="global_menu_new" url="/telefonoes?form" z="amuSf/DU5tHxI178AiIU67Zlcrc="/>
+            <menu:item id="i_telefono_list" messageCode="global_menu_list" url="/telefonoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="b4ttV+vpUZlQCyypsi+l8ZPw9+4="/>
+        </menu:category>
+        <menu:category id="c_persona" z="HGx10uPnaEw3eOO50fIb9qf5jiI=">
+            <menu:item id="i_persona_new" messageCode="global_menu_new" url="/personae?form" z="7Y0KdFKrjpWljePDcf4RoDAeOUA="/>
+            <menu:item id="i_persona_list" messageCode="global_menu_list" url="/personae?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/MWcaTHST1kjwDWGXluGyXbYCJo="/>
+        </menu:category>
+    </menu:menu>
+</div>

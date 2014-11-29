@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="telefonoes/list">
+        <put-attribute name="body" value="/WEB-INF/views/telefonoes/list.jspx"/>
+    </definition>
+<definition extends="default" name="telefonoes/show">
+        <put-attribute name="body" value="/WEB-INF/views/telefonoes/show.jspx"/>
+    </definition>
+<definition extends="default" name="telefonoes/create">
+        <put-attribute name="body" value="/WEB-INF/views/telefonoes/create.jspx"/>
+    </definition>
+<definition extends="default" name="telefonoes/update">
+        <put-attribute name="body" value="/WEB-INF/views/telefonoes/update.jspx"/>
+    </definition>
+</tiles-definitions>

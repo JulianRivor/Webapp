@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_imasd_webapp_domain_Persona" object="${persona}" path="/personae" z="Pxrr2xm6+u6ODsanEw3c8xYwjIk=">
+        <field:display field="nombre" id="s_org_imasd_webapp_domain_Persona_nombre" object="${persona}" z="Xf/AxX/zgJ+KwQhdEQMje+mSOxs="/>
+        <field:display field="apellido" id="s_org_imasd_webapp_domain_Persona_apellido" object="${persona}" z="Vfn+JBfA2pMk5o9wIMHsw19sxro="/>
+        <field:display field="direccion" id="s_org_imasd_webapp_domain_Persona_direccion" object="${persona}" z="krJEyhoqJasc4zwGdF1bK0uvLz4="/>
+        <field:display date="true" dateTimePattern="${persona_fechadenacimiento_date_format}" field="fechaDeNacimiento" id="s_org_imasd_webapp_domain_Persona_fechaDeNacimiento" object="${persona}" z="FKtPxufPAE3II4sH/leUHobRzic="/>
+    </page:show>
+</div>

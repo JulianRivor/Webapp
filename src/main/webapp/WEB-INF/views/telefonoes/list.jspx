@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_imasd_webapp_domain_Telefono" items="${telefonoes}" z="ScTosgcRzo+W/AYHDheU7u1TQks=">
+        <table:table data="${telefonoes}" id="l_org_imasd_webapp_domain_Telefono" path="/telefonoes" z="7qwWi2zdsTpNX1JgxmNl6MvX/jM=">
+            <table:column id="c_org_imasd_webapp_domain_Telefono_numero" property="numero" z="P1woKxOJWjQKKHRINH1RpSxMT9Q="/>
+            <table:column id="c_org_imasd_webapp_domain_Telefono_descripcion" property="descripcion" z="UXixlI7jWFMIuFX4nZX+o0vGPYg="/>
+        </table:table>
+    </page:list>
+</div>
